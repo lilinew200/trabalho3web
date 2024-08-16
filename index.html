@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Monitoramento das Salas</title>
+</head>
+<body>
+    <h1>Monitoramento das Salas</h1>
+    <div class="house">
+        <div class="room network-room free" onclick="toggleRoomState(this)">Sala de Redes<br>Livre</div>
+        <div class="room hallway">CORREDOR</div>
+        <div class="room room-4 occupied" onclick="toggleRoomState(this)">Sala 4<br>Ocupada</div>
+        <div class="room room-3 occupied" onclick="toggleRoomState(this)">Sala 3<br>Ocupada</div>
+        <div class="room it-lab-2 free" onclick="toggleRoomState(this)">Laboratório de TI 2<br>Livre</div>
+        <div class="room it-lab-1 maintenance" onclick="toggleRoomState(this)">Laboratório de TI 1<br>Manutenção</div>
+        <div class="room room-2 free" onclick="toggleRoomState(this)">Sala 2<br>Livre</div>
+        <div class="room room-1 occupied" onclick="toggleRoomState(this)">Sala 1<br>Ocupada</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
